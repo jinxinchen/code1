@@ -11,7 +11,7 @@ var render = function () {
 		if(i%4==1){
 			p = 0;
 		}
-//image方法
+//image方法。。
 		tmpl+='<li data-id="'+i+'" class="animated bounceIn" style="width:'+picWidth+'px;height:'+picWidth+'px;padding-left:'+p+'px;padding-top:'+padding+'px;"><img src="img/'+i+'.jpg"></li>';
 		
 //canvas方法
